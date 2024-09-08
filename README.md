@@ -34,10 +34,10 @@ El proyecto no requiere de accesos o credenciales específicas para su uso. Solo
 3. Los resultados se mostrarán en la interfaz de consola.
 
 ## Estructura del Proyecto
-`Tienda-Poo-Estructura.sln`: Archivo de solución principal para abrir en Visual Studio.
-`Program.cs`: Punto de entrada de la aplicación.
-`Entities/`: Contiene las clases que definen las entidades del sistema como Cliente.
-`Services/`: Contiene los servicios que manejan la lógica de negocio, como ClienteServices.
+- `Tienda-Poo-Estructura.sln`: Archivo de solución principal para abrir en Visual Studio.
+- `Program.cs`: Punto de entrada de la aplicación.
+- `Entities/`: Contiene las clases que definen las entidades del sistema como `Cliente`.
+- `Services/`: Contiene los servicios que manejan la lógica de negocio, como `ClienteServices`.
 
 ## Estado del Proyecto
 **Estado Actual:** `Finalizado.`
