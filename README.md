@@ -1,4 +1,7 @@
+<div align="center">
+
 # Tienda-Poo-Estructura
+</div>
 
 ### Descripción
 Este proyecto es una aplicación desarrollada en `C#` que simula la estructura de una tienda utilizando principios de `programación orientada a objetos (POO)`. El objetivo del proyecto es proporcionar un ejemplo práctico de cómo organizar y estructurar un sistema de tienda con funcionalidades básicas como la gestión de clientes, productos y servicios.
