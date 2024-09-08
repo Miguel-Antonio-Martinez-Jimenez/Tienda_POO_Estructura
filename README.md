@@ -24,11 +24,12 @@ El objetivo de este proyecto es demostrar cómo implementar los conceptos de POO
 
 ## Guía de Instalación
 1. Clona este repositorio en tu máquina local:
+   
    ```bash
    git clone https://github.com/Miguel-Antonio-Martinez-Jimenez/Tienda_POO_Estructura.git
-2. Abre el archivo de solución `.sln` en Visual Studio.
-3. Restaura los paquetes NuGet necesarios si no se restauran automáticamente.
-4. Compila y ejecuta el proyecto.
+3. Abre el archivo de solución `.sln` en Visual Studio.
+4. Restaura los paquetes NuGet necesarios si no se restauran automáticamente.
+5. Compila y ejecuta el proyecto.
 
 ## Conexión con la Base de Datos
 Este proyecto no requiere un sistema de gestión de bases de datos. En su lugar, se emplean archivos para el almacenamiento y manejo de los datos.
