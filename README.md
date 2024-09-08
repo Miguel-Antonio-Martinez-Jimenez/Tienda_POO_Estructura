@@ -19,6 +19,8 @@ El objetivo de este proyecto es demostrar cómo implementar los conceptos de POO
 - **.NET SDK** (versión específica recomendada en el proyecto).
 - **Visual Studio** o cualquier otro **IDE** compatible con **C#**.
 - **Git** para la gestión del código fuente.
+> [!Important]
+> Es importante asegurarse de que todos los requisitos estén instalados y configurados correctamente antes de ejecutar este proyecto para evitar problemas y asegurar un funcionamiento óptimo.
 
 ## Guía de Instalación
 1. Clona este repositorio en tu máquina local:
@@ -28,6 +30,9 @@ El objetivo de este proyecto es demostrar cómo implementar los conceptos de POO
 3. Restaura los paquetes NuGet necesarios si no se restauran automáticamente.
 4. Compila y ejecuta el proyecto.
 
+## Conexión con la Base de Datos
+Este proyecto no requiere un sistema de gestión de bases de datos. En su lugar, se emplean archivos para el almacenamiento y manejo de los datos.
+
 ## Accesos o Credenciales
 El proyecto no requiere de accesos o credenciales específicas para su uso. Solo es necesario clonar el repositorio y contar con los requisitos instalados en tu sistema para poder ejecutar el código.
 
@@ -36,11 +41,25 @@ El proyecto no requiere de accesos o credenciales específicas para su uso. Solo
 2. Sigue las instrucciones en la consola para gestionar clientes y productos.
 3. Los resultados se mostrarán en la interfaz de consola.
 
-## Estructura del Proyecto
-- `Tienda-Poo-Estructura.sln`: Archivo de solución principal para abrir en Visual Studio.
+## Estructura de Archivos
+- `Tienda-Poo-Estructura/Entities/`: Contiene las definiciones de las entidades del sistema.
+- `Tienda-Poo-Estructura/Services/`: Contiene la lógica de negocio o los servicios relacionados con las entidades del sistema.
 - `Program.cs`: Punto de entrada de la aplicación.
-- `Entities/`: Contiene las clases que definen las entidades del sistema como `Cliente`.
-- `Services/`: Contiene los servicios que manejan la lógica de negocio, como `ClienteServices`.
+- `Tienda-Poo-Estructura.csproj`: Archivo del proyecto que define las dependencias, configuraciones de compilación y otras propiedades del proyecto. Es crucial para la construcción y administración del proyecto en Visual Studio.
+- `Tienda-Poo-Estructura.sln`: Archivo de solución de Visual Studio que agrupa uno o más proyectos relacionados. Administra la configuración del proyecto y facilita el desarrollo en un entorno integrado.
+
+   ```bash
+    Tienda_POO_Estructura/
+    ├── Tienda-Poo-Estructura/
+    │   ├── Entities/
+    │   │   └── Cliente.cs
+    │   ├── Services/
+    │   │   └── ClienteServices.cs
+    │   ├── Program.cs
+    │   └── Tienda-Poo-Estructura.csproj
+    ├── Tienda-Poo-Estructura.sln
+    ├── LICENSE
+    └── README.md
 
 ## Estado del Proyecto
 **Estado Actual:** `Finalizado.`
